@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arnav Kush — Resume</title>
+  <meta name="description" content="Personal resume website of Arnav Kush, BBA (Digital Business &amp; Entrepreneurship) student at IIM Bangalore." />
+
+  <!-- Google Fonts: Fraunces for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR (sticky, flexbox) ===== -->
+  <header id="site-header">
+    <nav class="navbar">
+      <a href="#top" class="brand">Arnav<span class="brand-dot">.</span></a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#beyond">Beyond</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 class="hero-name">Arnav Kush</h1>
+          <p class="hero-role">BBA in Digital Business &amp; Entrepreneurship &middot; IIM Bangalore</p>
+          <p class="hero-summary">
+            Undergraduate at IIM Bangalore, former School Captain, two-time
+            All&#8209;India winner in music, and a basketball captain who enjoys
+            leading a team as much as playing in one.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="avatar" aria-hidden="true">AK</div>
+          <ul class="hero-facts">
+            <li><span class="label">Location</span><span class="value">Mumbai, India</span></li>
+            <li><span class="label">Email</span><span class="value">arnav.kush25@iimb.ac.in</span></li>
+            <li><span class="label">Programme</span><span class="value">BBA DBE, 2025&ndash;28</span></li>
+            <li><span class="label">Interests</span><span class="value">Music &middot; Sports &middot; Photography</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STATS STRIP ===== -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat">
+          <span class="stat-value">2&times;</span>
+          <span class="stat-label">All-India 1st place, music</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">90%</span>
+          <span class="stat-label">Class 10 board result</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">82.4%</span>
+          <span class="stat-label">Class 12, PCM + CS</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">3</span>
+          <span class="stat-label">Years in student leadership</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <div class="container">
+        <p class="section-eyebrow">01 — About</p>
+        <h2 class="section-title">A little about me</h2>
+        <div class="about-grid">
+          <p class="lead">
+            I'm studying Digital Business &amp; Entrepreneurship at IIM Bangalore,
+            with a Class 12 background in PCM and Computer Science.
+          </p>
+          <p>
+            Much of what I've learned so far came from being handed responsibility
+            early — School Captain in my final year, Vice Captain before that, and
+            House Sports Captain before that. Outside the classroom I play piano,
+            electric drums and congo, all self-driven, and I've competed at the
+            All&#8209;India level on two of them. I read about self-development and
+            the Indian Armed Forces, take photographs, and look after the stray
+            animals around me.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <p class="section-eyebrow">02 — Education</p>
+        <h2 class="section-title">Education</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <span class="badge">Pursuing</span>
+            <h3 class="card-title">BBA — Digital Business &amp; Entrepreneurship</h3>
+            <p class="card-sub">IIM Bangalore &middot; 2025&ndash;28</p>
+            <p>Undergraduate programme in digital business and entrepreneurship.</p>
+          </article>
+
+          <article class="card">
+            <span class="badge">82.40%</span>
+            <h3 class="card-title">Class 12 — PCM + Computer Science</h3>
+            <p class="card-sub">AECS, Mumbai &middot; 2025</p>
+            <p>Physics, Chemistry and Mathematics with Computer Science.</p>
+          </article>
+
+          <article class="card">
+            <span class="badge">90%</span>
+            <h3 class="card-title">Class 10</h3>
+            <p class="card-sub">AECS, Indore &middot; 2023</p>
+            <p>Completed secondary schooling at AECS, Indore.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ACHIEVEMENTS ===== -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <p class="section-eyebrow">03 — Achievements</p>
+        <h2 class="section-title">Academic &amp; competitive highlights</h2>
+
+        <div class="card-grid">
+          <article class="card card-accent">
+            <span class="badge badge-gold">1st — All India</span>
+            <h3 class="card-title">Inter-AECS Music Competition</h3>
+            <p>
+              Group choir on electric drums, against 20+ teams at this
+              DAE-level event.
+            </p>
+          </article>
+
+          <article class="card card-accent">
+            <span class="badge badge-gold">1st — All India</span>
+            <h3 class="card-title">Inter-AECS Western Percussion</h3>
+            <p>First place on congo at the national round.</p>
+          </article>
+
+          <article class="card card-accent">
+            <span class="badge badge-gold">32 points</span>
+            <h3 class="card-title">Basketball final, as captain</h3>
+            <p>
+              Scored 32 of the team's 52 points in a 52&ndash;13 final win while
+              captaining the side.
+            </p>
+          </article>
+        </div>
+
+        <ul class="achievement-list">
+          <li><span class="ach-year">2024&ndash;25</span> School Captain, AECS Mumbai — the school's highest student leadership role</li>
+          <li><span class="ach-year">2024&ndash;25</span> Inter-House Music Competition — 1st prize</li>
+          <li><span class="ach-year">2023&ndash;24</span> School Vice Captain, AECS Mumbai</li>
+          <li><span class="ach-year">2023&ndash;24</span> Inter-House Music Competition — 1st prize</li>
+          <li><span class="ach-year">2023&ndash;24</span> Inter-House Book Review Competition — 2nd prize</li>
+          <li><span class="ach-year">2022&ndash;23</span> Led juniors to 1st place in volleyball &amp; basketball, all categories</li>
+          <li><span class="ach-year">2022&ndash;23</span> Inter-House Volleyball — 1st prize</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== LEADERSHIP (timeline) ===== -->
+    <section id="leadership" class="section section-alt">
+      <div class="container">
+        <p class="section-eyebrow">04 — Leadership</p>
+        <h2 class="section-title">Positions of responsibility</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item">
+            <div class="timeline-meta">2024 — 25</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">School Captain</h3>
+              <p class="timeline-org">AECS, Mumbai</p>
+              <p>
+                The school's highest student leadership role: led morning
+                assemblies and co-curricular events, represented the school
+                externally, and guided junior students in academics and conduct.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta">2023 — 24</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">School Vice Captain</h3>
+              <p class="timeline-org">AECS, Mumbai</p>
+              <p>
+                Assisted the School Captain in leading assemblies and running
+                school events, coordinated CCA competitions and supported student
+                welfare initiatives.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-meta">2022 — 23</div>
+            <div class="timeline-body">
+              <h3 class="timeline-role">House Sports Captain</h3>
+              <p class="timeline-org">AECS, Indore</p>
+              <p>
+                Led juniors to 1st place in volleyball and basketball across all
+                boys' and girls' categories. Captained the basketball team and
+                scored 32 points in a 52&ndash;13 final.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== BEYOND ACADEMICS ===== -->
+    <section id="beyond" class="section">
+      <div class="container">
+        <p class="section-eyebrow">05 — Beyond academics</p>
+        <h2 class="section-title">Sports, music &amp; interests</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3 class="card-title">Sports</h3>
+            <p>
+              Basketball is my sport — I captained the school team in Indore.
+              Volleyball brought an Inter-House first prize.
+            </p>
+            <ul class="tag-list">
+              <li class="tag">Basketball</li>
+              <li class="tag">Volleyball</li>
+              <li class="tag">Swimming</li>
+              <li class="tag">Badminton</li>
+              <li class="tag">Football</li>
+              <li class="tag">Cricket</li>
+              <li class="tag">Taekwondo</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Music</h3>
+            <p>
+              Self-driven multi-instrument learning, with two All&#8209;India
+              first places to show for it.
+            </p>
+            <ul class="tag-list">
+              <li class="tag">Piano</li>
+              <li class="tag">Electric drums</li>
+              <li class="tag">Congo</li>
+              <li class="tag">Choir</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3 class="card-title">Interests</h3>
+            <p>
+              Photography, books on self-care and personal development, caring for
+              stray animals, and reading about Indian Armed Forces operations —
+              how missions, strategy and ground realities fit together.
+            </p>
+            <ul class="tag-list">
+              <li class="tag">Photography</li>
+              <li class="tag">Reading</li>
+              <li class="tag">Animal welfare</li>
+              <li class="tag">Defence studies</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section section-contact">
+      <div class="container contact-inner">
+        <p class="section-eyebrow light">06 — Contact</p>
+        <h2 class="section-title light">Let's talk</h2>
+        <p class="contact-lead">
+          Open to internships, projects and collaborations — and always happy to
+          talk music or basketball.
+        </p>
+        <a href="mailto:arnav.kush25@iimb.ac.in" class="btn btn-light">arnav.kush25@iimb.ac.in</a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 Arnav Kush</p>
+      <p>Built with HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
